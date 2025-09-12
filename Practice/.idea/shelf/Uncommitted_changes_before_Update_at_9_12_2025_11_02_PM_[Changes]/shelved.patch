@@ -1,0 +1,163 @@
+Index: src/method/Test1.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package method;\r\n\r\npublic class Test1 {\r\n    public static void main(String[] args) {\r\n        Person person1 = new Person();\r\n        person1.name = \"Fayad\";\r\n        person1.id = 1071;\r\n    person1.displayinformation();\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/method/Test1.java b/src/method/Test1.java
+--- a/src/method/Test1.java	(revision d84ee017c309aae0066fa1996555973903b742a2)
++++ b/src/method/Test1.java	(date 1757696446423)
+@@ -1,10 +1,10 @@
+-package method;
++package Method;
+ 
+ public class Test1 {
+     public static void main(String[] args) {
+-        Person person1 = new Person();
+-        person1.name = "Fayad";
+-        person1.id = 1071;
+-    person1.displayinformation();
++        Person person = new Person();
++        person.name = "Fayad";
++        person.id = 1071;
++    person.displayinformation();
+     }
+ }
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_9_12_2025_10_40_PM__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_9_12_2025_10_40_PM__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_9_12_2025_10_40_PM__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_9_12_2025_10_40_PM__Changes_.xml	(revision d84ee017c309aae0066fa1996555973903b742a2)
++++ /dev/null	(revision d84ee017c309aae0066fa1996555973903b742a2)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_9_12_2025_10_40_PM_[Changes]" date="1757695255042" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_12_2025_10_40_PM_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 9/12/2025 10:40 PM [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_9_12_2025_10_40_PM_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_9_12_2025_10_40_PM_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_9_12_2025_10_40_PM_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_9_12_2025_10_40_PM_[Changes]/shelved.patch	(revision d84ee017c309aae0066fa1996555973903b742a2)
++++ /dev/null	(revision d84ee017c309aae0066fa1996555973903b742a2)
+@@ -1,17 +0,0 @@
+-Index: .idea/vcs.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+-new file mode 100644
+---- /dev/null	(date 1757695119893)
+-+++ b/.idea/vcs.xml	(date 1757695119893)
+-@@ -0,0 +1,6 @@
+-+<?xml version="1.0" encoding="UTF-8"?>
+-+<project version="4">
+-+  <component name="VcsDirectoryMappings">
+-+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+-+  </component>
+-+</project>
+-\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"37f56a54-631c-4440-ac61-a61d68fef904\" name=\"Changes\" comment=\"uodate\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/method/Test1.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"PUSH_AUTO_UPDATE\" value=\"true\" />\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/..\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\"><![CDATA[{\r\n  \"lastFilter\": {\r\n    \"state\": \"OPEN\",\r\n    \"assignee\": \"fxfayad\"\r\n  }\r\n}]]></component>\r\n  <component name=\"GithubPullRequestsUISettings\"><![CDATA[{\r\n  \"selectedUrlAndAccountId\": {\r\n    \"url\": \"https://github.com/fxfayad/Java-practice.git\",\r\n    \"accountId\": \"d18f6d41-1eb0-4f16-8046-c312c1ddb118\"\r\n  }\r\n}]]></component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 3\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"32NA7ma8dWwy9erlYzW2uEHP9u6\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Application.Main.executor\": \"Run\",\r\n    \"Application.Test.executor\": \"Run\",\r\n    \"Application.Test1.executor\": \"Run\",\r\n    \"ModuleVcsDetector.initialDetectionPerformed\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252\": \"true\",\r\n    \"RunOnceActivity.git.unshallow\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"git-widget-placeholder\": \"main\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"last_opened_file_path\": \"D:/CODE/Java-practice/practice\",\r\n    \"onboarding.tips.debug.path\": \"D:/CODE/java/practice/src/Main.java\"\r\n  }\r\n}]]></component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"37f56a54-631c-4440-ac61-a61d68fef904\" name=\"Changes\" comment=\"\" />\r\n      <created>1757250496223</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1757250496223</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"uodate\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1757695202132</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1757695202132</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"uodate\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"uodate\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision d84ee017c309aae0066fa1996555973903b742a2)
++++ b/.idea/workspace.xml	(date 1757696447319)
+@@ -1,11 +1,16 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="AutoImportSettings">
+-    <option name="autoReloadType" value="SELECTIVE" />
+-  </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="37f56a54-631c-4440-ac61-a61d68fef904" name="Changes" comment="uodate">
+-      <change afterPath="$PROJECT_DIR$/src/method/Test1.java" afterDir="false" />
++    <list default="true" id="8e4dab76-3d67-4b2e-83cd-ecd27a71d797" name="Changes" comment="">
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_12_2025_10_40_PM_[Changes]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_12_2025_10_40_PM__Changes_.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/practice/inheritance/Object.class" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/practice/inheritance/Teacher.class" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/practice/inheritance/Test.class" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/practice/method/Person.class" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/practice/method/Test1.class" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/method/Test1.java" beforeDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -20,7 +25,6 @@
+     </option>
+   </component>
+   <component name="Git.Settings">
+-    <option name="PUSH_AUTO_UPDATE" value="true" />
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+   </component>
+   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+@@ -35,51 +39,32 @@
+     "accountId": "d18f6d41-1eb0-4f16-8046-c312c1ddb118"
+   }
+ }]]></component>
+-  <component name="ProjectColorInfo">{
+-  &quot;associatedIndex&quot;: 3
+-}</component>
+-  <component name="ProjectId" id="32NA7ma8dWwy9erlYzW2uEHP9u6" />
++  <component name="ProjectColorInfo"><![CDATA[{
++  "associatedIndex": 6
++}]]></component>
++  <component name="ProjectId" id="32bjGzeQXniqXbfWGd9P1kYAwpl" />
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+   <component name="PropertiesComponent"><![CDATA[{
+   "keyToString": {
+-    "Application.Main.executor": "Run",
+-    "Application.Test.executor": "Run",
+     "Application.Test1.executor": "Run",
+     "ModuleVcsDetector.initialDetectionPerformed": "true",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+     "RunOnceActivity.git.unshallow": "true",
+-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+     "git-widget-placeholder": "main",
+-    "kotlin-language-version-configured": "true",
+-    "last_opened_file_path": "D:/CODE/Java-practice/practice",
+-    "onboarding.tips.debug.path": "D:/CODE/java/practice/src/Main.java"
++    "kotlin-language-version-configured": "true"
+   }
+ }]]></component>
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+-      <changelist id="37f56a54-631c-4440-ac61-a61d68fef904" name="Changes" comment="" />
+-      <created>1757250496223</created>
++      <changelist id="8e4dab76-3d67-4b2e-83cd-ecd27a71d797" name="Changes" comment="" />
++      <created>1757696077029</created>
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+-      <updated>1757250496223</updated>
+-    </task>
+-    <task id="LOCAL-00001" summary="uodate">
+-      <option name="closed" value="true" />
+-      <created>1757695202132</created>
+-      <option name="number" value="00001" />
+-      <option name="presentableId" value="LOCAL-00001" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1757695202132</updated>
++      <updated>1757696077029</updated>
+     </task>
+-    <option name="localTasksCounter" value="2" />
+     <servers />
+   </component>
+-  <component name="VcsManagerConfiguration">
+-    <MESSAGE value="uodate" />
+-    <option name="LAST_COMMIT_MESSAGE" value="uodate" />
+-  </component>
+ </project>
+\ No newline at end of file

@@ -1,0 +1,23 @@
+<changelist name="Uncommitted_changes_before_Update_at_9_12_2025_11_02_PM_[Changes]" date="1757696524460" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_12_2025_11_02_PM_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 9/12/2025 11:02 PM [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/practice/inheritance/Test.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/practice/inheritance/Object.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/practice/method/Person.class" />
+    <option name="AFTER_PATH" value="out/production/practice/method/Person.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_12_2025_11_02_PM_[Changes]/Person.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/practice/method/Test1.class" />
+    <option name="AFTER_PATH" value="out/production/practice/method/Test1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_12_2025_11_02_PM_[Changes]/Test1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/practice/inheritance/Teacher.class" />
+  </binary>
+</changelist>
